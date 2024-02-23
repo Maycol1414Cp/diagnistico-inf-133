@@ -1,7 +1,19 @@
 .App {
   text-align: center;
 }
-
+.body-pokedex{
+  display: grid;
+}
+.one{
+  display: inline-flex;
+  width: 200px;
+  grid-template-columns:repeat(3,1fr);
+  padding: 40px;
+  border: 2px solid;
+  border-color: green;
+  background-color: #61dafb;
+}
+/* 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +47,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
